@@ -1,5 +1,10 @@
 <h1 align="center">Hi 👋, I am SGHIOURI MOHAMMED ARTIFICIAL INTELLIGENCE 💡🔋 AND COMPUTER SCIENCE 💻 STUDENT 👨🏼‍💻</h1>
 <h3 align="center">Full Stack developer and data scientist</h3>
+<h3 align="center">
+  <img src=""/>
+</h3>
+
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sghiouri-mohammed&label=Profile%20views&color=0e75b6&style=flat" alt="sghiouri-mohammed" /> </p>
 
