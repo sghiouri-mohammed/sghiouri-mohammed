@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I am SGHIOURI MOHAMMED ARTIFICIAL INTELLIGENCE 💡🔋 AND COMPUTER SCIENCE 💻 STUDENT 👨🏼‍💻</h1>
+<h2 align="center">Hi 👋, I am SGHIOURI MOHAMMED ARTIFICIAL INTELLIGENCE 💡🔋 AND COMPUTER SCIENCE 💻 STUDENT 👨🏼‍💻</h2>
 <h3 align="center">Full Stack developer and data scientist</h3>
 <h3 align="center">
   <img src="https://github.com/sghiouri-mohammed/sghiouri-mohammed/blob/main/Capture_d_e%CC%81cran_2023-03-03_a%CC%80_10.07.34-removebg-preview.png"/>
