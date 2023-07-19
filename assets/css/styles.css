@@ -131,6 +131,7 @@ img {
 
 /*========== Variables light theme ==========*/
 body.light-theme {
+  /* --title-color: white; */
   --title-color: hsl(var(--second-hue), 15%, 15%);
   --text-color: hsl(var(--second-hue), 8%, 35%);
   --body-color: hsl(var(--second-hue), 100%, 99%);
@@ -166,11 +167,14 @@ body.light-theme {
 .light-theme .home__scroll,
 .light-theme .button,
 .light-theme .button:hover,
-.light-theme .active-work,
 .light-theme .footer__title,
 .light-theme .footer__link,
 .light-theme .footer__copy {
   color: var(--title-color);
+}
+
+.light-theme .active-work {
+  color: white;
 }
 
 .light-theme .about__box {
@@ -674,7 +678,7 @@ body.light-theme {
 }
 
 .work__img {
-  border-radius: 1rem;
+  border-radius: 8px;
   margin-bottom: 0.75rem;
 }
 
@@ -847,7 +851,7 @@ body.light-theme {
 }
 /*=============== FOOTER ===============*/
 .footer {
-  background-color: var(--first-color);
+  background-color: #c0c0c038;
 }
 
 .footer__container {
@@ -992,6 +996,7 @@ body.light-theme {
     justify-content: center;
   }
 
+
   .about__description {
     padding: 1rem 5rem;
     width: 600px;
@@ -1007,7 +1012,7 @@ body.light-theme {
   }
 
   .skills__content {
-    padding: 4rem 8.8rem;
+    padding: 3rem 1.8rem;
   }
 
   .skills__title {
@@ -1039,7 +1044,7 @@ body.light-theme {
   }
 
   .work__img {
-    width: 250px;
+    width: 300px;
   }
 
   .testimonial__container {
@@ -1167,8 +1172,8 @@ body.light-theme {
   }
 
   .services__container {
-    grid-template-columns: repeat(3, 300px);
-    column-gap: 2rem;
+    grid-template-columns: repeat(2, 333px);
+    column-gap: 6rem;
   }
 
   .services__card {
