@@ -1307,7 +1307,7 @@ body:not(.light-theme) .xp__brand { background: var(--container-color); border-c
 
 @media (max-width: 640px) {
   .xp__row { grid-template-columns: 1fr; }
-  .xp__brand img { width: 72px; height: 72px; }
+  .xp__brand img { width: 100%;}
 }
 
 /*=============== CUSTOM: Skills chip layout ===============*/
@@ -1349,4 +1349,8 @@ body:not(.light-theme) .edu__brand { background: var(--container-color); border-
 @media (max-width: 640px) {
   .edu__row { grid-template-columns: 1fr; }
   .edu__brand img { width: 72px; height: 72px; }
+  .xp__brand img {
+    transform: rotate(0);
+  }
+}
 }
