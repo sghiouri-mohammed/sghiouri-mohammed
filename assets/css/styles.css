@@ -1352,5 +1352,7 @@ body:not(.light-theme) .edu__brand { background: var(--container-color); border-
   .xp__brand img {
     transform: rotate(0);
   }
+  .edu__item{order: 2;}
+  .edu__brand{order: 1;}
 }
-}
+
