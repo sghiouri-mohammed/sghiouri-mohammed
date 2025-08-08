@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <meta name="description" content="Portfolio de SGHIOURI Mohammed – Ingénieur Big Data & IA. Projets, expérience, compétences et contact.">
+    <meta property="og:title" content="Portfolio – SGHIOURI Mohammed">
+    <meta property="og:description" content="Ingénieur Big Data & IA. Découvrez mes projets récents et mon expérience.">
+    <meta property="og:type" content="website">
+    <meta name="keywords" content="Data Analyst, Data Engineer, Machine Learning, Python, Django, Power BI, Spotfire, Big Data, Air France, CNRS, Paris, Rabat, Casablanca, MLOps, Data Science">
+
+    <title> SGHIOURI Mohammed's Portfolio </title>
+</head>
+
+<body class="light-theme">
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">SGHIOURI MOHAMMED</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__actions">
+                <select id="lang-switch" aria-label="Language" class="lang-select">
+                    <option value="fr">FR</option>
+                    <option value="en">EN</option>
+                </select>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting" data-i18n="home.greeting">Hello, I'm</span>
+                    <h1 class="home__name">SGHIOURI Mohammed</h1>
+                    
+                    <h2 class="home__education"> 
+                        <b> Alternant Big Data Engineer at Air France </b> <img width="16" height="16" src="assets/img/af-bande.png" alt="AFKLM">
+                    </h2>
+                    <p class="home__typed">
+                        <span id="typed-output"></span>
+                    </p>
+
+                    <div class="home__button buttons__group">
+                        <a href="#about" class="button" data-i18n="home.about">About</a>
+                        <a href="assets/pdf/SGHIOURI_MOHAMMED_CV_Data.pdf" target="_blank" download="SGHIOURI_Mohammed_CV.pdf" rel="noopener noreferrer" class="button button--outline" data-i18n="home.cv">Download CV</a>
+                        <a href="#contact" class="button button--outline" data-i18n="home.contact">Contact</a>
+                        
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/perfil.png" alt="Profile" class="">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/mohammed-sghiouri-0509401a3" target="_blank" rel="noopener noreferrer" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/sghiouri-mohammed/sghiouri-mohammed" target="_blank" rel="noopener noreferrer" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://instagram.com/simohammed_sg?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer" class="home__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://www.facebook.com/simohammed.sghiouri/" target="_blank" rel="noopener noreferrer" class="home__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+
+                    <a href="https://twitter.com/SSimoGh1" target="_blank" rel="noopener noreferrer" class="home__social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <span class="section__subtitle" data-i18n="about.subtitle">My Intro</span>
+            <h2 class="section__title" data-i18n="about.title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/perfil.png" alt="Profile" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">5 Internships</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">150+ Projects</span>
+                        </div>
+                        <!-- <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Freelance</h3>
+                            <span class="about__subtitle">Online 24/6</span>
+                        </div> -->
+                    </div>
+
+                    <p class="about__description">
+                        Welcome to my website! I'm an AI Engineer and data scientist. 
+                        Join me as I delve into the fascinating world of technology, creating innovative 
+                        solutions and unraveling the mysteries of artificial intelligence. Let's embark 
+                        on this exciting journey together!
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact" data-i18n="about.cta">Contact Me</a>
+                </div>
+            </div>
+        </section>
+ 
+
+        <!-- Apple-like Experiences section -->
+        <section class="section experience" id="experience">
+            <span class="section__subtitle" data-i18n="xp.subtitle">Parcours</span>
+            <h2 class="section__title" data-i18n="xp.title">Expériences professionnelles</h2>
+
+            <div class="container xp">
+                <div class="xp__row">
+                    <div class="xp__brand"><img src="assets/img/af.png" alt="Logo Air France"></div>
+                    <article class="xp__item" itemscope itemtype="https://schema.org/OrganizationRole">
+                        <div class="xp__body">
+                            <div class="xp__header">
+                                <h3 class="xp__role" itemprop="roleName">Data Analyst / Engineer</h3>
+                                <div class="xp__badges">
+                                    <span class="badge"><i class='bx bx-calendar'></i> Septembre 2024 – Novembre 2025</span>
+                                    <span class="badge"><i class='bx bx-map'></i> Paris, France</span>
+                                </div>
+                            </div>
+                            <p class="xp__meta">
+                                <span class="xp__company" itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+                                    <span itemprop="name">Air France – Aéroport Paris-Charles de Gaulle</span>
+                                </span>
+                                — <time itemprop="startDate" datetime="2024-09">Septembre 2024</time> – <time itemprop="endDate" datetime="2025-11">Novembre 2025</time> | <span class="xp__location" itemprop="location">Paris, France</span>
+                            </p>
+                            <ul class="xp__list">
+                                <li>Automatisation des flux de données (Business Objects) pour produire des tableaux de bord décisionnels dynamiques sur Power BI et Spotfire</li>
+                                <li>Mise en œuvre d’indicateurs KPI pour optimiser le processus de dimensionnement opérationnel</li>
+                                <li>Élaboration de modèles de dimensionnement des effectifs commerciaux du HUB à court et moyen terme (800 agents)</li>
+                                <li>Développement de modèles de Machine Learning pour la prévision des besoins en effectifs</li>
+                            </ul>
+                            <div class="xp__chips" aria-label="Mots-clés">
+                                <span class="chip">Python</span>
+                                <span class="chip">Power BI</span>
+                                <span class="chip">Spotfire</span>
+                                <span class="chip">Machine Learning</span>
+                                <span class="chip">Tkinter</span>
+                                <span class="chip">Scikit-learn</span>
+                            </div>
+                        </div>
+                        
+                    </article>
+                </div>
+
+                <div class="xp__row">
+                    <div class="xp__brand"><img src="assets/img/Limos.png" alt="Logo CNRS / LIMOS"></div>
+                    <article class="xp__item">
+                    <div class="xp__body">
+                        <div class="xp__header">
+                            <h3 class="xp__role" itemprop="roleName">Research Data Scientist</h3>
+                            <div class="xp__badges">
+                                <span class="badge"><i class='bx bx-calendar'></i> Mars – Août 2024</span>
+                                <span class="badge"><i class='bx bx-map'></i> Clermont-Ferrand, France</span>
+                            </div>
+                        </div>
+                        <p class="xp__meta">
+                            <span class="xp__company" itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+                                <span itemprop="name">LIMOS – CNRS</span>
+                            </span>
+                            — <time itemprop="startDate" datetime="2024-03">Mars 2024</time> – <time itemprop="endDate" datetime="2024-08">Août 2024</time> | <span class="xp__location" itemprop="location">Clermont-Ferrand, France</span>
+                        </p>
+                        <ul class="xp__list">
+                            <li>Analyse de données réseau pour identifier des schémas anormaux</li>
+                            <li>Développement d’un système intelligent de détection d’intrusions réseau basé sur le Machine Learning</li>
+                        </ul>
+                        <div class="xp__chips" aria-label="Mots-clés">
+                            <span class="chip">Data Science</span>
+                            <span class="chip">Anomaly Detection</span>
+                            <span class="chip">Cybersecurity</span>
+                            <span class="chip">Python</span>
+                            <span class="chip">CNRS</span>
+                        </div>
+                    </div>
+                    
+                    </article>
+                </div>
+
+                <div class="xp__row">
+                    <div class="xp__brand"><img id="wwp" src="assets/img/wwp.png" alt="Logo World Wide Progress"></div>
+                    <article class="xp__item" itemscope itemtype="https://schema.org/OrganizationRole">
+                    <div class="xp__body">
+                        <div class="xp__header">
+                            <h3 class="xp__role" itemprop="roleName">Développeur IA – Python</h3>
+                            <div class="xp__badges">
+                                <span class="badge"><i class='bx bx-calendar'></i> Juin – Août 2023</span>
+                                <span class="badge"><i class='bx bx-map'></i> Casablanca, Maroc</span>
+                            </div>
+                        </div>
+                        <p class="xp__meta">
+                            <span class="xp__company" itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+                                <span itemprop="name">World Wide Progress</span>
+                            </span>
+                            — <time itemprop="startDate" datetime="2023-06">Juin 2023</time> – <time itemprop="endDate" datetime="2023-08">Août 2023</time> | <span class="xp__location" itemprop="location">Casablanca, Maroc</span>
+                        </p>
+                        <ul class="xp__list">
+                            <li>Automatisation de l’analyse de CVs via un modèle NLP, remplaçant un traitement manuel par une solution intelligente et scalable</li>
+                        </ul>
+                        <div class="xp__chips" aria-label="Mots-clés">
+                            <span class="chip">NLP</span>
+                            <span class="chip">Python</span>
+                            <span class="chip">IA</span>
+                            <span class="chip">Automatisation</span>
+                        </div>
+                    </div>
+                    
+                    </article>
+                </div>
+
+                <div class="xp__row">
+                    <div class="xp__brand"><img src="assets/img/minister.png" alt="Logo Ministère de la Transition Numérique"></div>
+                    <article class="xp__item" itemscope itemtype="https://schema.org/OrganizationRole">
+                    <div class="xp__body">
+                        <div class="xp__header">
+                            <h3 class="xp__role" itemprop="roleName">Développeur Web – Python/Django</h3>
+                            <div class="xp__badges">
+                                <span class="badge"><i class='bx bx-calendar'></i> Juillet – Août 2022</span>
+                                <span class="badge"><i class='bx bx-map'></i> Rabat, Maroc</span>
+                            </div>
+                        </div>
+                        <p class="xp__meta">
+                            <span class="xp__company" itemprop="memberOf" itemscope itemtype="https://schema.org/Organization">
+                                <span itemprop="name">Ministère de la Transition Numérique et de la Réforme de l’Administration</span>
+                            </span>
+                            — <time itemprop="startDate" datetime="2022-07">Juillet 2022</time> – <time itemprop="endDate" datetime="2022-08">Août 2022</time> | <span class="xp__location" itemprop="location">Rabat, Maroc</span>
+                        </p>
+                        <ul class="xp__list">
+                            <li>Développement et numérisation d’un processus administratif au sein du département de la retraite, optimisant la gestion des dossiers et réduisant les délais de traitement</li>
+                        </ul>
+                        <div class="xp__chips" aria-label="Mots-clés">
+                            <span class="chip">Python</span>
+                            <span class="chip">Django</span>
+                            <span class="chip">SQlite</span>
+                            <span class="chip">Digitalisation</span>
+                            <span class="chip">Secteur public</span>
+                        </div>
+                    </div>
+                    
+                    </article>
+                </div>
+            </div>
+        </section>
+ 
+        <!--=============== EDUCATION ===============-->
+        <section class="section education" id="education">
+            <span class="section__subtitle">Formation</span>
+            <h2 class="section__title">Formations & Parcours scolaire</h2>
+            <div class="container edu">
+                <div class="edu__row">
+                    <article class="xp__item edu__item">
+                        <div class="xp__header">
+                            <h3 class="xp__role">Master 2 en Alternance – Big Data & IA</h3>
+                            <div class="xp__badges">
+                                <span class="badge"><i class='bx bx-calendar'></i> 2024 – 2025</span>
+                                <span class="badge"><i class='bx bx-map'></i> Paris, France</span>
+                            </div>
+                        </div>
+                        <p class="xp__meta"><span class="xp__company">HETIC Paris – Air France</span></p>
+                    </article>
+                    <div class="edu__brand"><img src="assets/img/hetic.png" alt="HETIC Paris"></div>
+
+                </div>
+
+                <div class="edu__row">
+                    <article class="xp__item edu__item">
+                        <div class="xp__header">
+                            <h3 class="xp__role">DD – M2 International of Computer Science (Data Science)</h3>
+                            <div class="xp__badges">
+                                <span class="badge"><i class='bx bx-calendar'></i> 2023 – 2024</span>
+                                <span class="badge"><i class='bx bx-map'></i> Clermont-Ferrand, France</span>
+                            </div>
+                        </div>
+                        <p class="xp__meta"><span class="xp__company">ISIMA – Institut Supérieur d’Information, de Modélisation et de leurs Applications</span></p>
+                    </article>
+                    <div class="edu__brand"><img src="assets/img/isima.png" alt="ISIMA"></div>
+
+                </div>
+
+                <div class="edu__row">
+                    <article class="xp__item edu__item">
+                        <div class="xp__header">
+                            <h3 class="xp__role">Diplôme Ingénieur d’État – IA & Génie Informatique</h3>
+                            <div class="xp__badges">
+                                <span class="badge"><i class='bx bx-calendar'></i> 2019 – 2024</span>
+                                <span class="badge"><i class='bx bx-map'></i> Casablanca, Maroc</span>
+                            </div>
+                        </div>
+                        <p class="xp__meta"><span class="xp__company">ENSAM – École Nationale Supérieure d’Arts et Métiers</span></p>
+                    </article>
+                    <div class="edu__brand"><img src="assets/img/ensam.png" alt="ENSAM"></div>
+
+                </div>
+
+                <div class="edu__row">
+                    <article class="xp__item edu__item">
+                        <div class="xp__header">
+                            <h3 class="xp__role">Baccalauréat – Sciences Mathématiques (Option Française)</h3>
+                            <div class="xp__badges">
+                                <span class="badge"><i class='bx bx-calendar'></i> 2019</span>
+                                <span class="badge"><i class='bx bx-map'></i> Maroc</span>
+                            </div>
+                        </div>
+                        <p class="xp__meta"><span class="xp__company">Lycée (Maroc)</span></p>
+                    </article>
+                    <div class="edu__brand"><img src="assets/img/bacc.jpg" alt="Baccalauréat"></div>
+
+                </div>
+            </div>
+        </section>
+ 
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle" data-i18n="skills.subtitle">My Abilities</span>
+            <h2 class="section__title" data-i18n="skills.title">Tools & Technologies</h2>
+
+            <div class="skills__container container skill-grid">
+                <div class="skill-card">
+                    <div class="skill-card__header">
+                        <i class='bx bxs-brain skill-card__icon'></i>
+                        <h3 class="skill-card__title">Data Science & Machine Learning</h3>
+                    </div>
+                    <div class="skill-card__chips">
+                        <span class="chip chip--adv">Python</span>
+                        <span class="chip chip--adv">Pandas</span>
+                        <span class="chip chip--adv">NumPy</span>
+                        <span class="chip chip--adv">Scikit-learn</span>
+                        <span class="chip chip--int">TensorFlow</span>
+                        <span class="chip chip--int">PyTorch</span>
+                        <span class="chip chip--int">NLP</span>
+                        <span class="chip chip--adv">Power BI</span>
+                        <span class="chip chip--adv">Spotfire</span>
+                        <span class="chip chip--int">Business Objects</span>
+                        <span class="chip chip--adv">SQL (MySQL, SQLite)</span>
+                        <span class="chip chip--adv">Data Viz & KPIs</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card__header">
+                        <i class='bx bx-data skill-card__icon'></i>
+                        <h3 class="skill-card__title">Data Engineering & Big Data</h3>
+                    </div>
+                    <div class="skill-card__chips">
+                        <span class="chip chip--adv">Apache Spark</span>
+                        <span class="chip chip--int">Databricks</span>
+                        <span class="chip chip--int">Apache Kafka</span>
+                        <span class="chip chip--int">Apache Airflow</span>
+                        <span class="chip chip--int">Hadoop</span>
+                        <span class="chip chip--adv">ETL / ELT</span>
+                        <span class="chip chip--int">NoSQL</span>
+                        <span class="chip chip--int">Docker / Kubernetes</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card__header">
+                        <i class='bx bx-code-alt skill-card__icon'></i>
+                        <h3 class="skill-card__title">Web Development</h3>
+                    </div>
+                    <div class="skill-card__chips">
+                        <span class="chip chip--adv">HTML / CSS (SCSS)</span>
+                        <span class="chip chip--adv">JavaScript / TypeScript</span>
+                        <span class="chip chip--adv">React / Angular</span>
+                        <span class="chip chip--adv">Tailwind / Bootstrap</span>
+                        <span class="chip chip--adv">Django / Flask</span>
+                        <span class="chip chip--adv">Node.js / PHP (Laravel)</span>
+                        <span class="chip chip--int">Java EE / Spring Boot</span>
+                        <span class="chip chip--adv">Git / CI-CD</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle" data-i18n="services.subtitle">My Services</span>
+            <h2 class="section__title" data-i18n="services.title">What I Offer</h2>
+
+            <div class="services__container container grid">
+
+                <div class="services__card">
+                    <h3 class="services__title">AI Automation  <br> LLMs-APIs</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Automatisation IA & Intégration LLMs</h3>
+
+                            <p class="services__modal-description">
+                                Passionné par l'automatisation IA, je crée des solutions innovantes qui transforment vos processus grâce aux dernières technologies LLMs et d'intelligence artificielle.                                
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Développer des modèles IA personnalisés pour vos besoins spécifiques.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Créer des automatisations complexes avec n8n (workflows, intégrations).
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Intégrer des APIs LLMs (ChatGPT, Mistral, Claude) dans vos applications.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Construire des pipelines de données intelligents pour le traitement automatisé.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Optimiser vos processus métier avec des agents IA conversationnels.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Déployer des solutions d'automatisation scalables et robustes.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Website <br> Development</h3>
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Website Development</h3>
+
+                            <p class="services__modal-description">
+                                I leverage my coding skills to develop responsive and user-friendly web applications. 
+                                I integrate various technologies and frameworks to build robust and scalable web solutions.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I develop the user interfaces.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Web Page design and development.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I create the UX element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        I position your company brand.
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Programming  <br> languages</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Programming languages</h3>
+
+                            <p class="services__modal-description">
+                                As an experienced programmer, I can offer my skills in teaching various programming languages. 
+                                With a strong foundation in coding, I can provide comprehensive lessons and guidance in many languages.
+                                With me you can :
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Learn Python Programming from Scratch.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Mastering Java: From Beginner to Advanced
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Developing Mobile/Web Apps with React Native.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Creating Responsive Web Design with HTML and CSS (Bootstrap).
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Database Management and SQL Fundamentals.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        and more ...
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle" data-i18n="work.subtitle">My Portfolio</span>
+            <h2 class="section__title" data-i18n="work.title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+                <span class=" work__item" data-filter='.automation'>AI Automation</span>
+                <span class=" work__item" data-filter='.web'>Web</span>
+                <span class=" work__item" data-filter='.movil'>Mobile</span>
+                <span class=" work__item" data-filter='.design'>My Robot</span>
+            </div>
+
+            <div class="work__container container grid">
+
+                <div class="work__card mix automation">
+                    <img src="assets/img/n8n.webp" alt="Mobile Project" class="work__img">
+                    <h3 class="work__title">Intelligent Call Agent (n8n) for <br> E-commerce Integration</h3>
+                    <a href="https://www.linkedin.com/posts/mohammed-sghiouri_ai-voiceai-ecommerce-activity-7352797217822273536-ce3v?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC-ooDwBpZvRt9URlW_1nvTjT_JdpXa6VnU" target="_blank" class="work__button">Link <i class='bx bx-right-arrow work__icon'></i></a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/work1.jpg" alt="Hala Website" class="work__img">
+                    <h3 class="work__title">Hala Website 2023</h3>
+                    <a href="https://github.com/sghiouri-mohammed/HALA-2022-ReactJs" target="_blank" rel="noopener noreferrer" class="work__button">
+                        Github Repo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/fcdt.png" alt="Django Ministry App" class="work__img">
+                    <h3 class="work__title">Django Ministry App <br> Internship </h3>
+
+                    <a href="https://github.com/sghiouri-mohammed/ECA-SKILLS-ENSAM-php" target="_blank" rel="noopener noreferrer" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                
+                
+                <div class="work__card mix web">
+                    <img src="assets/img/ecsa.png" alt="ECSA" class="work__img">
+
+                    <h3 class="work__title">Ensam Casablanca Skills <br> Academy Website</h3>
+
+                    <a href="https://github.com/sghiouri-mohammed/ECA-SKILLS-ENSAM-php" target="_blank" rel="noopener noreferrer" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+
+                <div class="work__card mix web">
+                    <img src="assets/img/jee.jpeg" alt="JEE AppWeb" class="work__img">
+
+                    <h3 class="work__title">JEE AppWeb</h3>
+
+                    <a href="https://github.com/sghiouri-mohammed/JEE_App_Web_Gestion_Etudiant" target="_blank" rel="noopener noreferrer" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/work55.jpg" alt="Blog Website" class="work__img">
+
+                    <h3 class="work__title">Blog Website</h3>
+
+                    <a href="https://github.com/sghiouri-mohammed/Angular-Laravel-Blog-Website" target="_blank" rel="noopener noreferrer" class="work__button">
+                        Github Repo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/learnit.jpg" alt="Learn IT" class="work__img">
+
+                    <h3 class="work__title">Learn IT <br> JEE, Spring Platform</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="assets/img/work3.jpg" alt="Pill Pal Robot" class="work__img">
+
+                    <h3 class="work__title">Pill Pal Robot</h3>
+
+                    <a href="https://github.com/sghiouri-mohammed/PillPal" target="_blank" rel="noopener noreferrer" class="work__button">
+                        Github Repo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/pillpalmobile.jpg" alt="Pill Pal Mobile App" class="work__img">
+
+                    <h3 class="work__title">Pill Pal Mobile App</h3>
+
+                    <a href="#" class="work__button">
+                        Repo Github <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/mobile1.png" alt="Hala 22 Mobile App" class="work__img">
+
+                    <h3 class="work__title">Hala 22 Mobile App</h3>
+
+                    <a href="#" class="work__button">
+                        Repo Github <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <!-- New placeholder projects (update images/links later) -->
+                <div class="work__card mix automation">
+                    <img src="assets/img/quizz-app.png" alt="Project Placeholder" class="work__img">
+                    <h3 class="work__title">AI Generated Quiz Topic Mobile App</h3>
+                    <a href="#" class="work__button">Case Study <i class='bx bx-right-arrow work__icon'></i></a>
+                </div>
+                <div class="work__card mix automation">
+                    <img src="assets/img/My_travel.png" alt="AI Project" class="work__img">
+                    <h3 class="work__title">AI Generated Travel Plan Mobile App</h3>
+                    <a href="#" class="work__button">Demo <i class='bx bx-right-arrow work__icon'></i></a>
+                </div>
+                
+
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
+            <span class="section__subtitle" data-i18n="testi.subtitle">Ce qu’on dit de moi</span>
+            <h2 class="section__title" data-i18n="testi.title">Réputation professionnelle</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <h3 class="testimonial__name">Qualités reconnues</h3>
+                        <div class="rep-chips">
+                            <span class="chip chip--adv">Sérieux</span>
+                            <span class="chip chip--adv">Talentueux</span>
+                            <span class="chip chip--adv">Efficace</span>
+                            <span class="chip chip--adv">Créatif</span>
+                            <span class="chip chip--int">Proactif</span>
+                            <span class="chip chip--int">Esprit d’analyse</span>
+                            <span class="chip chip--int">Esprit d’équipe</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <h3 class="testimonial__name">Collègues & Managers</h3>
+                        <p class="testimonial__description">
+                            « Mohammed est sérieux, fiable et orienté résultats. Sa capacité à transformer des données en insights actionnables fait la différence. »
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <h3 class="testimonial__name">Partenaires</h3>
+                        <p class="testimonial__description">
+                            « Talentueux et créatif, il conçoit des solutions Data & IA efficaces et scalables, tout en gardant une excellente communication. »
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle" data-i18n="contact.subtitle">Get in touch</span>
+            <h3 class="section__title" data-i18n="contact.title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title" data-i18n="contact.email">Email</h3>
+                            <span class="contact__card-data">sghiouri.mohammed2001@gmail.com</span>
+
+                            <a href="mailto:sghiouri.mohammed2001@gmail.com" target="_blank" rel="noopener noreferrer" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title" data-i18n="contact.whatsapp">Whatsapp</h3>
+                            <span class="contact__card-data">+33 7 66 68 56 59</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+33766685659&text=Hey%20there!" target="_blank" rel="noopener noreferrer"
+                                class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-form" data-i18n="contact.formtitle">Write Me your Message</h3>
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title" data-i18n="contact.form">Fill the Form</h3>
+                            <span class="contact__card-data">sghiouri.mohammed2001@gmail.com</span>
+
+                            <a href="https://forms.gle/dsWNoE5g7rNVb5NE6" target="_blank" rel="noopener noreferrer" class="contact__button">
+                                Fill the form contact <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title white">SGHIOURI Mohammed</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link" data-i18n="footer.home">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link" data-i18n="footer.about">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link" data-i18n="footer.skills">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link" data-i18n="footer.work">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link" data-i18n="footer.contact">Contact</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; SGHIOURI MOHAMMED 2025. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!-- Typed.js before main to allow initialization there -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "name": "Sghiouri Mohammed",
+          "jobTitle": "Data Analyst / Data Engineer",
+          "knowsAbout": [
+            "Data Analyst",
+            "Data Engineer",
+            "Machine Learning",
+            "Python",
+            "Django",
+            "Power BI",
+            "Spotfire",
+            "Big Data",
+            "ETL",
+            "MLOps",
+            "Air France",
+            "CNRS"
+          ],
+          "sameAs": [
+            "https://www.linkedin.com/in/mohammed-sghiouri-0509401a3",
+            "https://github.com/sghiouri-mohammed/sghiouri-mohammed",
+            "https://twitter.com/SSimoGh1",
+            "https://www.facebook.com/simohammed.sghiouri/",
+            "https://instagram.com/simohammed_sg?igshid=OGQ5ZDc2ODk2ZA=="
+          ]
+        },
+        {
+          "@type": "OrganizationRole",
+          "roleName": "Data Analyst / Engineer",
+          "startDate": "2024-09",
+          "endDate": "2025-11",
+          "memberOf": { "@type": "Organization", "name": "Air France – Aéroport Paris-Charles de Gaulle" },
+          "location": { "@type": "Place", "name": "Paris, France" }
+        },
+        {
+          "@type": "OrganizationRole",
+          "roleName": "Research Data Scientist",
+          "startDate": "2024-03",
+          "endDate": "2024-08",
+          "memberOf": { "@type": "Organization", "name": "LIMOS – CNRS" },
+          "location": { "@type": "Place", "name": "Clermont-Ferrand, France" }
+        },
+        {
+          "@type": "OrganizationRole",
+          "roleName": "Développeur IA – Python",
+          "startDate": "2023-06",
+          "endDate": "2023-08",
+          "memberOf": { "@type": "Organization", "name": "World Wide Progress" },
+          "location": { "@type": "Place", "name": "Casablanca, Maroc" }
+        },
+        {
+          "@type": "OrganizationRole",
+          "roleName": "Développeur Web – Python/Django",
+          "startDate": "2022-07",
+          "endDate": "2022-08",
+          "memberOf": { "@type": "Organization", "name": "Ministère de la Transition Numérique et de la Réforme de l’Administration" },
+          "location": { "@type": "Place", "name": "Rabat, Maroc" }
+        }
+      ]
+    }
+    </script>
+</body>
+
+</html>
