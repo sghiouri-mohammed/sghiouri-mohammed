@@ -999,7 +999,7 @@ body.light-theme {
 
   .about__description {
     padding: 1rem 5rem;
-    width: 600px;
+    width: 660px;
     margin: 0 auto 2rem auto;
   }
 
@@ -1307,7 +1307,7 @@ body:not(.light-theme) .xp__brand { background: var(--container-color); border-c
 
 @media (max-width: 640px) {
   .xp__row { grid-template-columns: 1fr; }
-  .xp__brand img { width: 100%;}
+  .xp__brand img { width: 100%; }
 }
 
 /*=============== CUSTOM: Skills chip layout ===============*/
@@ -1327,7 +1327,10 @@ body:not(.light-theme) .chip--adv { background: rgba(255,255,255,.12); }
 body:not(.light-theme) .chip--int { background: rgba(255,255,255,.08); }
 
 @media (min-width: 768px) {
-  .skill-grid { grid-template-columns: repeat(3, 1fr); }
+  .skill-grid { 
+    /* grid-template-columns: repeat(3, 1fr);  */
+    grid-template-columns: 400px 350px 370px;
+  }
 }
 
 
@@ -1355,4 +1358,3 @@ body:not(.light-theme) .edu__brand { background: var(--container-color); border-
   .edu__item{order: 2;}
   .edu__brand{order: 1;}
 }
-
