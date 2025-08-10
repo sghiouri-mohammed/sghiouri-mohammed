@@ -159,6 +159,7 @@ const i18n = {
     "home.contact": "Contact",
     "about.subtitle": "My Intro",
     "about.title": "About Me",
+    "about.description": "As a recent graduate engineer driven by a passion for data and innovation, I am eager to apply my expertise in Big Data, Artificial Intelligence, and software engineering to contribute to an ambitious, forward-looking organization. <br/> <br/> My goal is to actively take part in optimizing and continuously improving internal processes, harnessing data as a powerful lever for performance. I strive to design innovative and dependable solutions that transform raw information into meaningful, actionable insights. <br/> <br/> With a blend of technical rigor, creativity, and strong analytical skills, I am committed to delivering real value in decision-making and supporting the organization’s growth and competitive edge.",
     "about.cta": "Contact Me",
     "stats.years": "Years of Experience",
     "stats.projects": "Projects Completed",
@@ -194,6 +195,7 @@ const i18n = {
     "home.contact": "Contact",
     "about.subtitle": "Mon Intro",
     "about.title": "À propos de moi",
+    "about.description": `En tant que jeune diplômé passionné par la donnée et l'innovation, je souhaite mettre mes compétences en Big Data, Intelligence Artificielle et ingénierie logicielle au service d'une organisation visionnaire. <br/> <br/>  Mon ambition est de m'intégrer pleinement dans le monde professionnel afin de contribuer à l'optimisation et à l'amélioration continue des processus internes.   Convaincu que la donnée est un levier stratégique pour la performance, j'ai à cur de l'exploiter intelligemment, en développant des solutions innovantes et fiables qui permettent de transformer l'information brute en indicateurs clairs et pertinents.  <br/> <br/>  Mon objectif est d'apporter une réelle valeur ajoutée dans la prise de décision, en alliant rigueur technique, créativité et sens de l'analyse pour soutenir la croissance et la compétitivité de l'entreprise.`,
     "about.cta": "Me contacter",
     "stats.years": "Années d'expérience",
     "stats.projects": "Projets réalisés",
@@ -246,3 +248,4 @@ function applyI18n(lang) {
     });
   }
 })();
+
