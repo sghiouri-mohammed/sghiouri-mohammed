@@ -69,7 +69,7 @@
 ---
 
 ### 📫 Contact
-- Email: **mosghiouri@airfrance.fr**
+- Email: **sghiouri.mohammed2001@gmail.com**
 - LinkedIn: **/in/mohammed-sghiouri-0509401a3**
 
 ---
