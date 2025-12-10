@@ -16,7 +16,7 @@
 <hr/>
 
 ### 🚀 About me
-- Big Data & AI Engineer (HETIC Paris – Air France)
+- Big Data & AI Engineer Air France
 - Passionate about ML for real-world optimization, automation (LLMs/APIs), and data-driven decisions
 - I enjoy turning complex data into simple, actionable insights
 
